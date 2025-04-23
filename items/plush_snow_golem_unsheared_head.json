@@ -2,12 +2,12 @@
 	"format_version": "1.20.50",
 	"minecraft:item": {
 		"description": {
-			"identifier": "sewtotaleye:plush_snow_golem_unsheared_head"
+			"identifier": "totallyplush:plush_snow_golem_unsheared_head"
 		},
 		"components": {
 			"minecraft:max_stack_size": 1,
 			"minecraft:icon": {
-				"texture": "sewtotaleye_plush_snow_golem_unsheared_head"
+				"texture": "totallyplush_plush_snow_golem_unsheared_head"
 			},
             "minecraft:display_name": {
                 "value": "Plush Snow Golem Unsheared Head"

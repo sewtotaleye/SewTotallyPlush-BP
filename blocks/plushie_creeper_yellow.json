@@ -2,7 +2,15 @@
     "format_version": "1.21.60",
     "minecraft:block": {
         "description": {
-            "identifier": "sewtotaleye:plushie_creeper_yellow"
+            "identifier": "totallyplush:plushie_creeper_yellow",
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 180
+                }
+            }
         },
         "components": {
             "minecraft:display_name": "Yellow Creeper Plushie §o§d(Plushies)",
@@ -19,22 +27,72 @@
                 },
                 "material_instances": {
                     "*": {
-                    "texture": "sewtotaleye_plushie_creeper_yellow"
+                    "texture": "totallyplush_plushie_creeper_yellow"
                     }
                   }
                 },
             "minecraft:geometry": "geometry.small_plushie",
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "sewtotaleye_plushie_creeper_yellow",
+                    "texture": "totallyplush_plushie_creeper_yellow",
                     "render_method": "alpha_test"
                 }
             },
             "minecraft:destructible_by_explosion": {
                 "explosion_resistance": 12
             },
-            "minecraft:map_color": "#d4cb1b"
+            "minecraft:map_color": "#e0d44c"
             
-        }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ]
     }
 } 

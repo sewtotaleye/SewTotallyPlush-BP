@@ -2,7 +2,15 @@
     "format_version": "1.21.60",
     "minecraft:block": {
         "description": {
-            "identifier": "sewtotaleye:plushie_snow_golem_top_hat"
+            "identifier": "totallyplush:plushie_snow_golem_top_hat",
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 180
+                }
+            }
         },
         "components": {
             "minecraft:display_name": "Snow Golem Top Hat Plushie §o§d(Plushies)",
@@ -19,14 +27,14 @@
             },
             "material_instances": {
                 "*": {
-                "texture": "sewtotaleye_plushie_snow_golem_top_hat"
+                "texture": "totallyplush_plushie_snow_golem_top_hat"
                 }
               }
             },
             "minecraft:geometry": "geometry.snow_golem_top_hat_plushie",
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "sewtotaleye_plushie_snow_golem_top_hat",
+                    "texture": "totallyplush_plushie_snow_golem_top_hat",
                     "render_method": "alpha_test"
                 }
             },
@@ -35,6 +43,56 @@
             },
             "minecraft:map_color": "#ffffff"
             
-        }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ]
     }
 } 

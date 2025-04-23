@@ -2,7 +2,15 @@
     "format_version": "1.21.60",
     "minecraft:block": {
         "description": {
-            "identifier": "sewtotaleye:plushie_drowned_trident"
+            "identifier": "totallyplush:plushie_drowned_trident",
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 180
+                }
+            }
         },
         "components": {
             "minecraft:display_name": "Drowned Trident Plushie §o§d(Plushies)",
@@ -19,14 +27,14 @@
             },
             "material_instances": {
                 "*": {
-                "texture": "sewtotaleye_plushie_drowned_trident"
+                "texture": "totallyplush_plushie_drowned_trident"
                 }
               }
             },
             "minecraft:geometry": "geometry.small_plushie_trident",
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "sewtotaleye_plushie_drowned_trident",
+                    "texture": "totallyplush_plushie_drowned_trident",
                     "render_method": "alpha_test"
                 }
             },
@@ -35,6 +43,56 @@
             },
             "minecraft:map_color": "#11968e"
             
-        }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ]
     }
 } 

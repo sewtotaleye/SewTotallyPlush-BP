@@ -2,12 +2,12 @@
 	"format_version": "1.20.50",
 	"minecraft:item": {
 		"description": {
-			"identifier": "sewtotaleye:plush_bunny_head_white"
+			"identifier": "totallyplush:plush_bunny_head_white"
 		},
 		"components": {
 			"minecraft:max_stack_size": 1,
 			"minecraft:icon": {
-				"texture": "sewtotaleye_plush_bunny_head_white"
+				"texture": "totallyplush_plush_bunny_head_white"
 			},
 			"minecraft:display_name": {
 			"value": "Plush Bunny Head White"

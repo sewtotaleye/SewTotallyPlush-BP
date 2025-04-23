@@ -2,12 +2,12 @@
 	"format_version": "1.20.50",
 	"minecraft:item": {
 		"description": {
-			"identifier": "sewtotaleye:plush_bunny_head_salt_pepper"
+			"identifier": "totallyplush:plush_bunny_head_salt_pepper"
 		},
 		"components": {
 			"minecraft:max_stack_size": 1,
 			"minecraft:icon": {
-				"texture": "sewtotaleye_plush_bunny_head_salt_pepper"
+				"texture": "totallyplush_plush_bunny_head_salt_pepper"
 			},
 			"minecraft:display_name": {
 			"value": "Plush Bunny Head Salt Pepper"

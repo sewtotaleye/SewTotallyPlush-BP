@@ -2,12 +2,12 @@
 	"format_version": "1.20.50",
 	"minecraft:item": {
 		"description": {
-			"identifier": "sewtotaleye:plush_creeper_head_red"
+			"identifier": "totallyplush:plush_creeper_head_red"
 		},
 		"components": {
 			"minecraft:max_stack_size": 1,
 			"minecraft:icon": {
-				"texture": "sewtotaleye_plush_creeper_head_red"
+				"texture": "totallyplush_plush_creeper_head_red"
 			},
 			"minecraft:display_name": {
 			"value": "Plush Creeper Head Red"

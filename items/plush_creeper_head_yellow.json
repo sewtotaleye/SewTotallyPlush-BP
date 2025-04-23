@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sewtotaleye:plush_creeper_head_yellow"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "sewtotaleye_plush_creeper_head_yellow"
+			},
+			"minecraft:display_name": {
+			"value": "Plush Creeper Head Yellow"
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.head",
+				"protection": 6
+			},
+			"minecraft:enchantable": {
+				"slot": "armor_head",
+				"value": 9
+			},
+			"minecraft:durability": {
+				"max_durability": 852
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["gunpowder"],
+						"repair_amount": 511
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,106 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:crafting_items_catalog": {
+      "categories": [
+        {
+          "category_name": "items",
+          "groups": [
+            {
+              "group_identifier": {
+                "icon": "sewtotaleye:plushie_pink_bunny",
+                "name": "sewtotaleye:bunnies"
+              },
+              "items": [
+                "sewtotaleye:plushie_black_bunny",
+                "sewtotaleye:plushie_blue_bunny",
+                "sewtotaleye:plushie_brown_bunny",
+                "sewtotaleye:plushie_gold_bunny",
+                "sewtotaleye:plushie_green_bunny",
+                "sewtotaleye:plushie_pink_bunny",
+                "sewtotaleye:plushie_salt_pepper_bunny",
+                "sewtotaleye:plushie_toast_bunny",
+                "sewtotaleye:plushie_white_bunny",
+                "sewtotaleye:plushie_yellow_bunny"
+              ]
+            },
+            {
+              "group_identifier": {
+                "icon": "sewtotaleye:plushie_snow_golem",
+                "name": "sewtotaleye:golems"
+              },
+              "items": [
+                "sewtotaleye:plushie_snow_golem",
+                "sewtotaleye:plushie_snow_golem_top_hat",
+                "sewtotaleye:plushie_snow_golem_unsheared",
+                "sewtotaleye:plushie_snow_golem_unsheared_top_hat"
+              ]
+            },
+            {
+              "group_identifier": {
+                "icon": "sewtotaleye:plushie_creeper",
+                "name": "sewtotaleye:creepers"
+              },
+              "items": [
+                "sewtotaleye:plushie_creeper",
+                "sewtotaleye:plushie_creeper_yellow",
+                "sewtotaleye:plushie_creeper_red",
+                "sewtotaleye:plushie_creeper_purple",
+                "sewtotaleye:plushie_creeper_orange",
+                "sewtotaleye:plushie_creeper_blue",
+                "sewtotaleye:plushie_creeper_pink"
+              ]
+            },
+            {
+              "group_identifier": {
+                "icon": "sewtotaleye:plushie_zombie",
+                "name": "sewtotaleye:zombies"
+              },
+              "items": [
+                "sewtotaleye:plushie_zombie",
+                "sewtotaleye:plushie_zombie_top_hat",
+                "sewtotaleye:plushie_zombie_straw_hat",
+                "sewtotaleye:plushie_drowned",
+                "sewtotaleye:plushie_lava_drowned",
+                "sewtotaleye:plushie_drowned_trident",
+                "sewtotaleye:plushie_husk",
+                "sewtotaleye:plushie_husk_fancy"
+              ]
+            },
+            {
+              "group_identifier": {
+                "icon": "sewtotaleye:plushie_bunny_head_pink",
+                "name": "sewtotaleye:heads"
+              },
+              "items": [
+                "sewtotaleye:plush_bunny_head_black",
+                "sewtotaleye:plush_bunny_head_blue",
+                "sewtotaleye:plush_bunny_head_brown",
+                "sewtotaleye:plush_bunny_head_gold",
+                "sewtotaleye:plush_bunny_head_green",
+                "sewtotaleye:plush_bunny_head_pink",
+                "sewtotaleye:plush_bunny_head_salt_pepper",
+                "sewtotaleye:plush_bunny_head_toast",
+                "sewtotaleye:plush_bunny_head_white",
+                "sewtotaleye:plush_bunny_head_yellow",
+                "sewtotaleye:plush_creeper_head",
+                "sewtotaleye:plush_creeper_head_yellow",
+                "sewtotaleye:plush_creeper_head_red",
+                "sewtotaleye:plush_creeper_head_purple",
+                "sewtotaleye:plush_creeper_head_pink",
+                "sewtotaleye:plush_creeper_head_orange",
+                "sewtotaleye:plush_creeper_head_blue",
+                "sewtotaleye:plush_zombie_head",
+                "sewtotaleye:plush_zombie_head_top_hat",
+                "sewtotaleye:plush_zombie_head_straw_hat",
+                "sewtotaleye:plush_lava_drowned_head",
+                "sewtotaleye:plush_drowned_head",
+                "sewtotaleye:plush_husk_head",
+                "sewtotaleye:plush_husk_fancy_head"
+              ]
+            }
+           
+        ]
+    }
+]
+    }
+}

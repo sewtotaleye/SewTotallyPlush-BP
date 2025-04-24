@@ -1,0 +1,98 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:block": {
+        "description": {
+            "identifier": "totallyplush:plushie_cow_oreo",
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 180
+                }
+            }
+        },
+        "components": {
+            "minecraft:display_name": "Oreo Cow Plushie §o§d(Plushies)",
+            "minecraft:light_dampening": 0,
+            "minecraft:light_emission": 1,
+            "minecraft:collision_box": true,
+            "minecraft:selection_box": true,
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.25
+            },
+            "minecraft:item_visual": {
+                "geometry": {
+                    "identifier": "geometry.barn_plushie_item"
+                },
+                "material_instances": {
+                    "*": {
+                    "texture": "totallyplush_plushie_cow_oreo"
+                    }
+                  }
+                },
+            "minecraft:geometry": "geometry.barn_plushie",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "totallyplush_plushie_cow_oreo",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 12
+            },
+            "minecraft:map_color": "#3b3b3b"
+            
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+} 

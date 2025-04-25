@@ -2,7 +2,7 @@
     "format_version": "1.21.60",
     "minecraft:block": {
         "description": {
-            "identifier": "totallyplush:plushie_cow_highland",
+            "identifier": "totallyplush:plushie_zombie_pig",
             "traits": {
                 "minecraft:placement_direction": {
                     "enabled_states": [
@@ -13,7 +13,7 @@
             }
         },
         "components": {
-            "minecraft:display_name": "Highland Cow Plushie §o§d(Plushies)",
+            "minecraft:display_name": "Zombie Pig Plushie §o§d(Plushies)",
             "minecraft:light_dampening": 0,
             "minecraft:light_emission": 1,
             "minecraft:collision_box": true,
@@ -27,21 +27,21 @@
                 },
                 "material_instances": {
                     "*": {
-                    "texture": "totallyplush_plushie_cow_highland"
+                    "texture": "totallyplush_plushie_zombie_pig"
                     }
                   }
                 },
             "minecraft:geometry": "geometry.barn_plushie",
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "totallyplush_plushie_cow_highland",
+                    "texture": "totallyplush_plushie_zombie_pig",
                     "render_method": "alpha_test"
                 }
             },
             "minecraft:destructible_by_explosion": {
                 "explosion_resistance": 12
             },
-            "minecraft:map_color": "#b58a33"
+            "minecraft:map_color": "#5f966e"
             
         },
         "permutations": [

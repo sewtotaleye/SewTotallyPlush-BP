@@ -25,6 +25,75 @@
             },
             {
               "group_identifier": {
+                "icon": "totallyplush:plushie_cow_blue",
+                "name": "totallyplush:cows"
+              },
+              "items": [
+                "totallyplush:plushie_cow_brown_mooshroom",
+                "totallyplush:plushie_cow_mooshroom",
+                "totallyplush:plushie_cow_blue",
+                "totallyplush:plushie_cow_green",
+                "totallyplush:plushie_cow_brown",
+                "totallyplush:plushie_cow_highland",
+                "totallyplush:plushie_cow_orange",
+                "totallyplush:plushie_cow_orange_creme",
+                "totallyplush:plushie_cow_oreo",
+                "totallyplush:plushie_cow_pink",
+                "totallyplush:plushie_cow_purple",
+                "totallyplush:plushie_cow_strawberry",
+                "totallyplush:plushie_cow_yellow",
+                "totallyplush:plushie_cow_zombie"
+              ]
+            },
+            {
+              "group_identifier": {
+                "icon": "totallyplush:plushie_pig",
+                "name": "totallyplush:pigs"
+              },
+              "items": [
+                "totallyplush:plushie_pig",
+                "totallyplush:plushie_muddy_pig",
+                "totallyplush:plushie_zombie_pig",
+                "totallyplush:plushie_brown_pig",
+                "totallyplush:plushie_dark_pig",
+                "totallyplush:plushie_purple_pig"
+              ]
+            },
+            {
+              "group_identifier": {
+                "icon": "totallyplush:plushie_enderman",
+                "name": "totallyplush:end"
+              },
+              "items": [
+                "totallyplush:plushie_enderman",
+                "totallyplush:plushie_enderman_hat"
+              ]
+            },
+            {
+              "group_identifier": {
+                "icon": "totallyplush:plushie_vessel",
+                "name": "totallyplush:custom"
+              },
+              "items": [
+                "totallyplush:plushie_vessel"
+              ]
+            },
+            {
+              "group_identifier": {
+                "icon": "totallyplush:plushie_piglin",
+                "name": "totallyplush:nether"
+              },
+              "items": [
+                "totallyplush:plushie_piglin",
+                "totallyplush:plushie_piglin_hat",
+                "totallyplush:plushie_zoglin",
+                "totallyplush:plushie_zombie_piglin",
+                "totallyplush:zombie_piglin_hat",
+                "totallyplush:plushie_hoglin"
+              ]
+            },
+            {
+              "group_identifier": {
                 "icon": "totallyplush:plushie_snow_golem",
                 "name": "totallyplush:golems"
               },
@@ -98,7 +167,27 @@
                 "totallyplush:plush_lava_drowned_head",
                 "totallyplush:plush_drowned_head",
                 "totallyplush:plush_husk_head",
-                "totallyplush:plush_husk_fancy_head"
+                "totallyplush:plush_husk_fancy_head",
+                "totallyplush:plush_cow_head_blue",
+                "totallyplush:plush_cow_head_brown",
+                "totallyplush:plush_cow_head_brownshroom",
+                "totallyplush:plush_cow_head_green",
+                "totallyplush:plush_cow_head_highland",
+                "totallyplush:plush_cow_head_mooshroom",
+                "totallyplush:plush_cow_head_orange",
+                "totallyplush:plush_cow_head_orange_creme",
+                "totallyplush:plush_cow_head_oreo",
+                "totallyplush:plush_cow_head_purple",
+                "totallyplush:plush_cow_head_pink",
+                "totallyplush:plush_cow_head_strawberry",
+                "totallyplush:plush_cow_head_yellow",
+                "totallyplush:plush_cow_head_zombie",
+                "totallyplush:plush_pig",
+                "totallyplush:plush_pig_head_muddy",
+                "totallyplush:plush_pig_head_dark",
+                "totallyplush:plush_pig_head_brown",
+                "totallyplush:plush_pig_head_purple",
+                "totallyplush:plush_pig_head_zombie"
               ]
             }
            

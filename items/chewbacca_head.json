@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "totallyplush:plush_chewbacca_head",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "totallyplush_plush_chewbacca_head"
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.head",
+				"protection": 12
+			},
+			"minecraft:enchantable": {
+				"slot": "armor_head",
+				"value": 9
+			},
+			"minecraft:durability": {
+				"max_durability": 2100
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["leather"],
+						"repair_amount": 1680
+					}
+				]
+			}
+		}
+	}
+}

@@ -71,6 +71,18 @@
             },
             {
               "group_identifier": {
+                "icon": "totallyplush:plushie_bee",
+                "name": "totallyplush:bugs"
+              },
+              "items": [
+                "totallyplush:plushie_bee",
+                "totallyplush:plushie_rainbow_bee",
+                "totallyplush:plushie_firefly",
+                "totallyplush:plushie_dragonfly"
+              ]
+            },
+            {
+              "group_identifier": {
                 "icon": "totallyplush:plushie_vessel",
                 "name": "totallyplush:custom"
               },
@@ -107,6 +119,37 @@
                 "totallyplush:plushie_iron_golem_red"
               ]
             },
+            {
+              "group_identifier": {
+                "icon": "totallyplush:plushie_princess_leia",
+                "name": "totallyplush:mine_wars"
+              },
+              "items": [
+                "totallyplush:plushie_princess_leia",
+                "totallyplush:han_solos_vest",
+                "totallyplush:plush_leia_head",
+                "totallyplush:plushie_han_solo"
+              ]
+            },
+            {
+              "group_identifier": {
+                "icon": "totallyplush:plushie_snowhuntsman",
+                "name": "totallyplush:admin_plush"
+              },
+              "items": [
+                "totallyplush:plushie_snowhuntsman",
+                "totallyplush:plushie_thedcro",
+                "totallyplush:plushie_glamazon518",
+                "totallyplush:plushie_lionsgirl269981",
+                "totallyplush:plushie_sewtotaleye",
+                "totallyplush:plush_snowhuntsman_head",
+                "totallyplush:plush_thedcro_head",
+                "totallyplush:plush_glamazon518_head",
+                "totallyplush:plush_lionsgirl269981_head",
+                "totallyplush:plush_sewtotaleye_head"
+              ]
+            },
+            
             {
               "group_identifier": {
                 "icon": "totallyplush:plushie_creeper",

@@ -2,7 +2,7 @@
 	"format_version": "1.20.50",
 	"minecraft:item": {
 		"description": {
-			"identifier": "totally_plush:han_solos_vest",
+			"identifier": "totallyplush:han_solos_vest",
 			"menu_category": {
 				"category": "items"
 			}

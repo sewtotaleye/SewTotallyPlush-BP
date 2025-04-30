@@ -100,7 +100,7 @@
                 "totallyplush:plushie_piglin_hat",
                 "totallyplush:plushie_zoglin",
                 "totallyplush:plushie_zombie_piglin",
-                "totallyplush:zombie_piglin_hat",
+                "totallyplush:plushie_zombie_piglin_hat",
                 "totallyplush:plushie_hoglin"
               ]
             },
@@ -128,7 +128,9 @@
                 "totallyplush:plushie_princess_leia",
                 "totallyplush:han_solos_vest",
                 "totallyplush:plush_leia_head",
-                "totallyplush:plushie_han_solo"
+                "totallyplush:plushie_han_solo",
+                "totallyplush:plushie_chewbacca",
+                "totallyplush:plush_chewbacca_head"
               ]
             },
             {
@@ -183,7 +185,7 @@
             },
             {
               "group_identifier": {
-                "icon": "totallyplush:plushie_bunny_head_pink",
+                "icon": "totallyplush:plush_bunny_head_pink",
                 "name": "totallyplush:heads"
               },
               "items": [
@@ -225,12 +227,23 @@
                 "totallyplush:plush_cow_head_strawberry",
                 "totallyplush:plush_cow_head_yellow",
                 "totallyplush:plush_cow_head_zombie",
-                "totallyplush:plush_pig",
-                "totallyplush:plush_pig_head_muddy",
-                "totallyplush:plush_pig_head_dark",
-                "totallyplush:plush_pig_head_brown",
-                "totallyplush:plush_pig_head_purple",
-                "totallyplush:plush_pig_head_zombie"
+                "totallyplush:plush_pig_head",
+                "totallyplush:plush_muddy_pig_head",
+                "totallyplush:plush_dark_pig_head",
+                "totallyplush:plush_brown_pig_head",
+                "totallyplush:plush_purple_pig_head",
+                "totallyplush:plush_zombie_pig_head",
+                "totallyplush:plush_bee_head",
+                "totallyplush:plush_rainbow_bee_head",
+                "totallyplush:plush_firefly_head",
+                "totallyplush:plush_dragonfly_head",
+                "totallyplush:plush_iron_golem_head",
+                "totallyplush:plush_iron_golem_head_pink",
+                "totallyplush:plush_iron_golem_head_red",
+                "totallyplush:plush_snow_golem_head",
+                "totallyplush:plush_snow_golem_top_hat_head",
+                "totallyplush:plush_snow_golem_unsheared_head",
+                "totallyplush:plush_snow_golem_unsheared_top_hat_head"
               ]
             }
            

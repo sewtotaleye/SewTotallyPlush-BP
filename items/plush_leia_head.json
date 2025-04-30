@@ -26,7 +26,7 @@
 			"minecraft:repairable": {
 				"repair_items": [
 					{
-						"items": ["skulk"],
+						"items": ["sculk"],
 						"repair_amount": 511
 					}
 				]

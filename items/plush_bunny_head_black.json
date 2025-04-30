@@ -12,6 +12,10 @@
 			"minecraft:display_name": {
 			"value": "Plush Bunny Head Black"
 			},
+			"minecraft:block_placer": {
+                "block": "totallyplush:plush_black_bunny_head_block",
+                "replace_block_item": true
+            },
 			"minecraft:wearable": {
 				"slot": "slot.armor.head",
 				"protection": 6
